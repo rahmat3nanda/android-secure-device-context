@@ -14,6 +14,7 @@ android {
     }
 
     defaultConfig {
+        namespace = "id.nesd.secure_device_context"
         minSdk = 24
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"

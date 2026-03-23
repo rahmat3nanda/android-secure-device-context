@@ -1,13 +1,14 @@
 plugins {
     alias(libs.plugins.android.application)
+    alias(libs.plugins.compose.compiler)
 }
 
 android {
-    namespace = "id.nesd.secure_device_context"
+    namespace = "id.nesd.secure_device_context.app"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "id.nesd.secure_device_context"
+        applicationId = "id.nesd.secure_device_context.app"
         minSdk = 24
         targetSdk = 36
         versionCode = 1
