@@ -2,6 +2,9 @@ plugins {
     alias(libs.plugins.android.library)
 }
 
+group = "id.nesd.secure_device_context"
+version = "1.0.0"
+
 android {
     namespace = "id.nesd.secure_device_context"
     compileSdk {
